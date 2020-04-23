@@ -12,22 +12,22 @@ $page_id = 48;
 
 <section class="main">
   <div class="main_wrapper">
-    <div class="sidebar" id="sidebar"></div>
+    <? sidebarRouter($post->post_name, $page_id); ?>
     <div class="main_content_wrapper">
       <? if (function_exists('yoast_breadcrumb')) {
         yoast_breadcrumb('<div id="breadcrumbs" class="breadcrumbs">', '</div>');
       }; ?>
 
-      <h1 class="h1_title">Наши услуги</h1>
+      <h1 class="h1_title"><? the_field('h1_title', $page_id); ?></h1>
       <div class="content">
-        <?= get_the_content(false, false, $page_id ); ?>
+        <?=
+        wpautop( get_the_content(null, false, $page_id), $br = true );
+        ?>
       </div>
 
     </div>
   </div>
 </section>
-
-
 
 
 

@@ -265,6 +265,7 @@ section, header, .section
 	left: 0
 	right: 0
 	z-index: 51
+	border-bottom: 1px solid rgba(242, 242, 243, 0.9)
 	.burger
 		position: absolute
 		top: 24px
@@ -1243,4 +1244,126 @@ footer
 						path
 							fill: $placeholder_color
 
+.main
+	width: 100%
+	height: auto
+	padding: 40px 0 55px
+	.main_wrapper
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		.sidebar
+			width: 270px
+			height: auto
+			background-color: $footer_bg
+			padding: 24px 16px
+			color: $white
+			.link_list
+				width: 100%
+				height: auto
+				display: flex
+				flex-direction: column
+				.sidebar_link
+					font-weight: bold
+					font-size: 18px
+					line-height: 22px
+					text-transform: uppercase
+					margin-bottom: 32px
+					order: 3
+					&:hover
+						opacity: .8
+					&.currient
+						order: 1
+					&:last-child
+						margin-bottom: 0
+				.bar_list
+					width: 100%
+					height: auto
+					order: 2
+					.bar
+						width: 100%
+						height: auto
+						.barlink
+							width: 100%
+							height: auto
+							min-height: 32px
+							margin-bottom: 24px
+							font-weight: 600
+							line-height: 19px
+							color: #E5E5E5
+							&:hover
+								color: $white
+
+		.main_content_wrapper
+			width: 868px
+			.h1_title
+				font-weight: 800
+				font-size: 32px
+				line-height: 39px
+				text-transform: uppercase
+				color: $dark
+				margin-bottom: 16px
+			.content
+				width: 100%
+				height: auto
+				h2
+					font-weight: bold
+					font-size: 24px
+					line-height: 29px
+					color: $dark
+					margin-bottom: 20px
+				h3
+					font-weight: bold
+					font-size: 20px
+					line-height: 27px
+					color: $dark
+					margin-bottom: 15px
+				p
+					line-height: 28px
+					&:last-child
+						margin-bottom: 0
+				ul
+					width: 100%
+					height: auto
+					padding-left: 35px
+					position: relative
+					li
+						width: 100%
+						height: auto
+						display: flex
+						flex-direction: row
+						position: relative
+						margin-bottom: 20px
+						&:last-child
+							margin-bottom: 0
+						&:before
+							content: ''
+							display: block
+							width: 12px
+							height: 12px
+							background-color: $accent
+							position: absolute
+							left: -34px
+							top: 6px
+				p, ul
+					font-size: 18px
+					margin-bottom: 24px
+				img
+					display: block
+					width: auto
+					height: auto
+					max-width: 100%
+					margin: 0 auto 24px
+
+
+.breadcrumbs
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	line-height: 28px
+	margin-bottom: 18px
+	a
+		&:first-child
+			color: $accent
 @import "media"
