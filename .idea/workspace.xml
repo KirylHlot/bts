@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b68f9418-2a7b-42d1-9785-9d6ff47671b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/sidebar_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/sidebar_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/page-uslugi_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/starter_pack/templates/page-uslugi_template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +62,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/sidebar_template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="32" column="46" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="46" />
+                <state relative-caret-position="459">
+                  <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -80,8 +75,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="1273" column="12" selection-start-line="1273" selection-start-column="12" selection-end-line="1273" selection-end-column="12" />
+                <state relative-caret-position="117">
+                  <caret line="1259" column="19" lean-forward="true" selection-start-line="1259" selection-start-column="19" selection-end-line="1259" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -349,27 +344,34 @@
       <workItem from="1587476843104" duration="41611000" />
       <workItem from="1587549805048" duration="53957000" />
       <workItem from="1587638284655" duration="2213000" />
-      <workItem from="1587640921243" duration="10179000" />
+      <workItem from="1587640921243" duration="10430000" />
     </task>
+    <task id="LOCAL-00001" summary="Sidebar">
+      <created>1587651343672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587651343672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131150000" />
+    <option name="totallyTimeSpent" value="131401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-7" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.23187633" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.23187633" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="RNConsole" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.2561629" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.2561629" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.56913185" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3290461" />
@@ -386,6 +388,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sidebar" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>F:\Server\OSPanel\domains\bts.loc\app</wordpressPath>
@@ -748,17 +754,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/sidebar_template.php">
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="117">
+          <caret line="1259" column="19" lean-forward="true" selection-start-line="1259" selection-start-column="19" selection-end-line="1259" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/assets/sass/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/wp-content/themes/starter_pack/template-parts/sidebar_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="1273" column="12" selection-start-line="1273" selection-start-column="12" selection-end-line="1273" selection-end-column="12" />
+        <state relative-caret-position="459">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
         </state>
       </provider>
     </entry>
