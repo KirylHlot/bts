@@ -7,3 +7,37 @@ function posrPreviewItem ($post_id, $substring_count=250){?>
     <a href="<?= get_the_permalink($post_id); ?>" class="button">Читать далее</a>
   </div>
 <?}
+
+function filesList ($page_id ){?>
+  <div class="files_list">
+    <?
+    $counter = 0;
+    if (have_rows('price_list', $page_id)):
+      while (have_rows('price_list', $page_id)) : the_row();
+        $file = get_sub_field('file' );
+        $size = round($file['filesize']/1000);
+        $url= $file['url'];
+        $filetype = substr($file['filename'], -3 );
+        ?>
+        <div class="file_item">
+          <? if($filetype === 'ocx' or $filetype === 'doc'){
+            the_doc_icon();
+          } else if ($filetype === 'pdf'){
+            the_pdf_icon();
+          } else{
+            the_lsx_icon();
+          }?>
+          <a href="<?= $url; ?>" class="info_wrapper">
+            <div class="filename"><? the_sub_field('filename'); ?></div>
+            <div class="filesize"><?= $size; ?>кб</div>
+          </a>
+          <a href="<?= $url; ?>" class="download">
+            <? the_download_icon(); ?>
+          </a>
+        </div>
+      <?
+      endwhile;
+    endif;
+    ?>
+  </div>
+<?}

@@ -9,7 +9,6 @@ $page_id = 48;
 
 <? get_header(); ?>
 
-
 <section class="main">
   <div class="main_wrapper">
     <? sidebarRouter($post->post_name, $page_id); ?>
@@ -28,17 +27,6 @@ $page_id = 48;
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
 <? ourWorksGalary(); ?>
 <? whichAutoWeService(); ?>

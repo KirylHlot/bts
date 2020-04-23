@@ -33,7 +33,7 @@ function sidebarRouter($currient_page, $page_id)
         echo '<li class="sidebar_link currient"><a href="/razborka-gruzovikov">Разборка грузовиков</a></li>';
         theBarLinksList($currient_page, $page_id);
       } else {
-        echo '<li class="sidebar_link"><a href="/gruzovoj-evakuator">Разборка грузовиков</a></li>';
+        echo '<li class="sidebar_link"><a href="/razborka-gruzovikov">Разборка грузовиков</a></li>';
       } ?>
 
     </ul>
