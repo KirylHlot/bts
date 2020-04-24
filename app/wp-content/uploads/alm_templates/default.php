@@ -1,0 +1,1 @@
+<? posrPreviewItem(get_the_ID(), 250, true) ?>

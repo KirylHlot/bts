@@ -1,8 +1,10 @@
 <?php
-function posrPreviewItem ($post_id, $substring_count=250){?>
+function posrPreviewItem ($post_id, $substring_count=250, $is_accia = true){?>
   <div class="post_preview_item">
     <h3 class="h3_title"><?= get_the_title($post_id); ?></h3>
-    <div class="date">Задать в шаблоне дату!!!!</div>
+    <? if($is_accia){ ?>
+      <div class="date"><? the_field('accia_period', $post_id); ?></div>
+    <?}?>
     <div class="content"><? echo mb_substr(strip_tags(get_the_content(false, false, $post_id)), 0, $substring_count, 'UTF-8') . '...'; ?></div>
     <a href="<?= get_the_permalink($post_id); ?>" class="button">Читать далее</a>
   </div>

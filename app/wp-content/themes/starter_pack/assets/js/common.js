@@ -91,7 +91,6 @@ function hidden_all_phones(){
 }
 if(document.body.clientWidth < 1200) {
   for (let i = 0; i < carrets_mass.length; i++) {
-    console.log(carrets_mass[i]);
     carrets_mass[i].addEventListener('click', function(){
       show_phones(this);
     })
@@ -354,3 +353,10 @@ $(document).ready(function () {
 
 let $dots = $('.owl-dot');
 $dots.attr('aria-label', 'owl carousel');
+
+$('.callbacks_list').masonry({
+  gutter: '.gutter-sizer',
+  itemSelector: '.carousel_item_greed',
+  percentPosition: true,
+  horizontalOrder: true
+});

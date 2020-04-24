@@ -48,6 +48,7 @@ gulp.task('js', function () {
     'app/wp-content/themes/' + theme_name + '/assets/libs/fancybox-master/dist/jquery.fancybox.min.js',
     'app/wp-content/themes/' + theme_name + '/assets/libs/comments-reply.js',
     'app/wp-content/themes/' + theme_name + '/assets/libs/navigation.js',
+    'app/wp-content/themes/' + theme_name + '/assets/libs/masonry-master/dist/masonry.pkgd.min.js',
     'app/wp-content/themes/' + theme_name + '/assets/libs/skip-link-focus-fix.js',
     'app/wp-content/themes/' + theme_name + '/assets/js/common.js' // Always at the end
   ])

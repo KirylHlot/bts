@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 24.04.2020 01:55
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.30
+WORDPRESS:	5.4
+PHP INFO:	7.2.10 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 10MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20200424_beltrakcentr_bc531b621b5ce6cf4494_20200424015327_database.sql
+SQL FILE SIZE: 2.28MB (2389552)
+SQL FILE TIME: 2020-04-24 01:55:17
+SQL RUNTIME: 3.34 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  F:/Server/OSPanel/domains/bts.loc/app
+ARCHIVE FILE: 20200424_beltrakcentr_bc531b621b5ce6cf4494_20200424015327_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	88.58MB
+STATS:	Dirs 525 | Files 4,350
+SQL ADDED: 20200424_beltrakcentr_bc531b621b5ce6cf4494_20200424015327_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4875
+    [filename] => F:\Server\OSPanel\domains\bts.loc\app\wp-snapshots\tmp\20200424_beltrakcentr_bc531b621b5ce6cf4494_20200424015327_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 4874
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:F:\Server\OSPanel\domains\bts.loc\app\wp-content\plugins\duplicator\classes\utilities\class.u.php|LINE:172]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 31.8MB
+ARCHIVE RUNTIME: 53.90 sec.
+MEMORY STACK: 12MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip F:/Server/OSPanel/domains/bts.loc/app/wp-snapshots/tmp/20200424_beltrakcentr_bc531b621b5ce6cf4494_20200424015327_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 2.28MB
+INSTALLER FILE: 61.32KB
+ARCHIVE FILE: 33.13MB 
+EXPECTED FILE/DIRECTORY COUNT: 4,875
+ACTUAL FILE/DIRECTORY COUNT: 4,874
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 58.33 sec.
+PEAK PHP MEMORY USED: 12MB
+DONE PROCESSING => 20200424_beltrakcentr 24.04.2020 01:56
+

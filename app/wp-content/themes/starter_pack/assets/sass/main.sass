@@ -221,6 +221,16 @@ button
 			svg
 				.stripe1
 					fill: $white
+	&.center
+		margin-left: auto
+		margin-right: auto
+	&.done
+		display: none
+
+
+
+
+
 .h2_title
 	font-weight: 800
 	font-size: 32px
@@ -1298,6 +1308,8 @@ footer
 
 		.main_content_wrapper
 			width: 868px
+			&.single
+				width: 100%
 			.h1_title
 				font-weight: 800
 				font-size: 32px
@@ -1356,6 +1368,14 @@ footer
 					height: auto
 					max-width: 100%
 					margin: 0 auto 24px
+					&.alignright
+						display: inline
+						margin-left: 20px
+						margin-bottom: 0
+					&.alignleft
+						display: inline
+						margin-right: 20px
+						margin-bottom: 0
 			.examples_list
 				width: 100%
 				height: auto
@@ -1392,7 +1412,8 @@ footer
 						line-height: 28px
 						padding: 0 20px
 						margin-bottom: 20px
-
+		.button
+			margin-top: 40px
 .breadcrumbs
 	width: 100%
 	height: auto
@@ -1461,4 +1482,169 @@ footer
 				background-color: $footer_bg
 				.stripe1
 					fill: $white
+
+.preview_block
+	width: 90%
+	margin: 0 auto 40px
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+	.left_part
+		width: 33%
+		height: 310px
+		background-position: center
+		background-size: cover
+		background-repeat: no-repeat
+	.right_part
+		width: 50%
+		height: auto
+		display: flex
+		justify-content: center
+		align-items: center
+		font-size: 18px
+		line-height: 28px
+		text-transform: uppercase
+
+.contacts_wrapper
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	.contacts_content
+		width: 48%
+		.content
+			p, ul
+				font-size: 16px !important
+	.desc
+		font-size: 18px
+		line-height: 28px
+		margin-bottom: 35px
+	.mail_form
+		width: 48%
+		height: 100%
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		flex-wrap: wrap
+		background-color: $light_grey
+		padding: 85px 24px
+		input
+			width: 100%
+			height: 56px
+			padding: 0 22px
+			display: flex
+			flex-direction: row
+			align-items: center
+			border: none
+			font-size: 18px
+			margin-bottom: 4%
+		textarea
+			width: 100%
+			border: none
+			padding: 14px 22px
+			height: 150px
+			resize: none
+			margin-bottom: 30px
+		.button
+			width: 370px
+			margin-right: auto
+			margin-top: 0
+		.mail_alerts
+			font-size: 18px
+			font-weight: bold
+			width: 100%
+			padding: 20px 0
+			&.allert_done
+				color: mediumseagreen
+			&.allert_false
+				color: $accent
+
+
+.callbacks_list
+	width: 100%
+	height: auto
+	.carousel_item_greed
+		width: 32%
+		height: auto
+		padding: 44px 16px
+		background-color: $white
+		border: 1px solid #E5E5E5
+		text-align: center
+		margin-bottom: 20px
+		.name
+			font-weight: bold
+			font-size: 18px
+			line-height: 28px
+			margin-bottom: 8px
+		.service_type
+			line-height: 28px
+			text-transform: uppercase
+			margin-bottom: 18px
+		.content
+			font-style: italic
+			line-height: 19px
+			p
+				margin-bottom: 20px
+				&:last-child
+					margin-bottom: 0
+
+.gutter-sizer
+	width: 2%
+
+#show_else
+	margin: 50px auto 0
+
+.preview_list,
+.alm-reveal
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	flex-wrap: wrap
+	.post_preview_item
+		margin-bottom: 30px
+
+.pb_0
+	padding-bottom: 0
+
+.mb_30
+	margin-bottom: 30px
+
+.p_404
+	width: 100%
+	height: auto
+	padding: 100px 0
+	.main_wrapper
+		text-align: center
+		h1
+			font-weight: 800
+			font-size: 200px
+			line-height: 244px
+			text-align: center
+			text-transform: uppercase
+			color: $accent
+			margin-bottom: 20px
+		.desc
+			font-weight: 800
+			font-size: 32px
+			line-height: 39px
+			text-align: center
+			text-transform: uppercase
+			margin-bottom: 30px
+		.cont
+			font-size: 18px
+			line-height: 32px
+			margin-bottom: 40px
+		.alert
+			font-size: 18px
+			line-height: 32px
+			text-transform: uppercase
+			a
+				color: #0d95e8
+
+
+
 @import "media"
