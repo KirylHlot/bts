@@ -3865,6 +3865,10 @@ footer .main_wrapper .footer_column .creater .logo img {
   .contacts_wrapper .contacts_content {
     margin-bottom: 20px;
   }
+  .the_fotogalary .image_item {
+    width: 48%;
+    height: 180px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -4361,5 +4365,8 @@ footer .main_wrapper .footer_column .creater .logo img {
   .p_404 .main_wrapper .desc {
     font-size: 18px;
     line-height: 25px;
+  }
+  .the_fotogalary .image_item {
+    height: 150px;
   }
 }
