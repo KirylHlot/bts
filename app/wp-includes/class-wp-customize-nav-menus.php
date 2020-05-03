@@ -488,7 +488,7 @@ final class WP_Customize_Nav_Menus {
 		$data = sprintf( 'var _wpCustomizeNavMenusSettings = %s;', wp_json_encode( $settings ) );
 		wp_scripts()->add_data( 'customize-nav-menus', 'data', $data );
 
-		// This is copied from nav-menus_template.php, and it has an unfortunate object name of `menus`.
+		// This is copied from nav-menus.php, and it has an unfortunate object name of `menus`.
 		$nav_menus_l10n = array(
 			'oneThemeLocationNoMenus' => null,
 			'moveUp'                  => __( 'Move up one' ),

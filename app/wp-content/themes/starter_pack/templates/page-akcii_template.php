@@ -42,11 +42,10 @@ $page_id = 62;
         wp_reset_postdata();
         ?>
       </div>
-      <?
-      if($category_count > $offset){
+      <? if($category_count > $offset){
         echo do_shortcode('[ajax_load_more container_type="div" scroll="false" post_type="post" offset="' . $offset . '" posts_per_page="' . $offset . '" category="' . $category_name . '" pause="true" button_label="Загрузить еще"]');
-      }
-      ?></div>
+      }?>
+    </div>
   </div>
 </section>
 

@@ -9,8 +9,6 @@
 	background-color: $accent
 	color: #fff
 
-
-
 *
 	box-sizing: border-box
 
@@ -408,6 +406,8 @@ section, header, .section
 						color: $accent
 					&:last-child
 						margin-right: 0
+					&.current-menu-item
+						color: $accent
 		.menu-first_menu-container
 			.menu
 				.menu-item
@@ -1190,6 +1190,8 @@ footer
 				width: 100%
 				max-width: none
 
+
+
 .our_works
 	width: 100%
 	height: auto
@@ -1320,6 +1322,11 @@ footer
 			.content
 				width: 100%
 				height: auto
+				a
+					font-weight: 700
+					text-decoration: underline
+					&:hover
+						color: $accent
 				h2
 					font-weight: bold
 					font-size: 24px
@@ -1646,5 +1653,20 @@ footer
 				color: #0d95e8
 
 
+.the_fotogalary
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: space-around
+	flex-wrap: wrap
+	.image_item
+		width: 31%
+		height: 150px
+		margin-bottom: 20px
+		background-position: center
+		background-size: cover
+		background-repeat: no-repeat
 
 @import "media"

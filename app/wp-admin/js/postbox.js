@@ -285,7 +285,7 @@
 		save_state : function(page) {
 			var closed, hidden;
 
-			// Return on the nav-menus_template.php screen, see #35112.
+			// Return on the nav-menus.php screen, see #35112.
 			if ( 'nav-menus' === page ) {
 				return;
 			}

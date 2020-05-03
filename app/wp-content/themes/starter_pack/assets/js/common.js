@@ -313,6 +313,12 @@ function closePopupByMissClick() {
     t.is(e.target) || 0 !== t.has(e.target).length || close_popup()
   })
 }
+
+
+
+
+
+
 function setOverlay(){
   document.getElementById('overlay').classList.remove('d_none');
   document.getElementById('body').classList.add('ovf_hidden');

@@ -20,6 +20,7 @@
         <?=
         wpautop( get_the_content(null, false, get_the_ID()), $br = true );
         ?>
+        <? the_fotogalary(get_the_ID()); ?>
       </div>
 
     </div>

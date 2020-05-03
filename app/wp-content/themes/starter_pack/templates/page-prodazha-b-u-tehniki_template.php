@@ -21,6 +21,10 @@ $page_id = 54;
         wpautop( get_the_content(null, false, $page_id), $br = true );
         ?>
       </div>
+
+
+
+
       <div class="examples_list">
         <?
         $counter = 0;

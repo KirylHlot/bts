@@ -27,13 +27,13 @@ function sidebarRouter($currient_page, $page_id)
         echo '<li class="sidebar_link"><a href="/gruzovoj-evakuator">Грузовой эвакуатор</a></li>';
       } ?>
 
-      <li class="sidebar_link"><a href="/prodazha-b-u-tehniki">Продажа б/у техники</a></li>
+      <li class="sidebar_link"><a href="/prodazha-bu-tehniki">Продажа б/у техники</a></li>
 
-      <? if ($currient_page === 'razborka-gruzovikov') {
-        echo '<li class="sidebar_link currient"><a href="/razborka-gruzovikov">Разборка грузовиков</a></li>';
+      <? if ($currient_page === 'zapchasti-dlya-gruzovyh-avtomobilej') {
+        echo '<li class="sidebar_link currient"><a href="/zapchasti-dlya-gruzovyh-avtomobilej">Разборка грузовиков</a></li>';
         theBarLinksList($currient_page, $page_id);
       } else {
-        echo '<li class="sidebar_link"><a href="/razborka-gruzovikov">Разборка грузовиков</a></li>';
+        echo '<li class="sidebar_link"><a href="/zapchasti-dlya-gruzovyh-avtomobilej">Разборка грузовиков</a></li>';
       } ?>
 
     </ul>
